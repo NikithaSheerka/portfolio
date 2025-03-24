@@ -1,10 +1,10 @@
 import React from 'react';
-import { Github, Linkedin, Mail, ExternalLink, Code2, Briefcase, User, ChevronDown } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, Code2, Briefcase, User, ChevronDown, Download } from 'lucide-react';
 import etsyImage from "../assets/etsy.png";
 import shopwell from "../assets/shopwell.png";
 import sudoko from "../assets/sudoko.png";
 import stackoverflow from "../assets/stackoverflow.png";
-
+import resume from "../assets/sai_nikitha_sheerka_se_r.pdf";
 
 
 function App() {
@@ -37,6 +37,9 @@ function App() {
             </a>
             <a href="mailto:sainikithasheerka@gmail.com" className="p-2 bg-red-600 text-white rounded-full hover:bg-red-500 transition-colors">
               <Mail size={24} />
+            </a>
+            <a href="#" download={resume} className="p-2 bg-red-600 text-white rounded-full hover:bg-red-500 transition-colors">
+              <Download size={24} />
             </a>
           </div>
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
