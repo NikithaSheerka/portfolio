@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: 'https://github.com/NikithaSheerka/portfolio'
+  base: './'
 });
