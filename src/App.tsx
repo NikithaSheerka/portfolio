@@ -26,7 +26,7 @@ function App() {
             Hi, I'm <span className="text-indigo-600">Sai Nikitha Sheerka</span>
           </h1>
           <p className="text-xl sm:text-2xl text-gray-700 mb-8">
-            Software Engineer/Developer | Fullstack development
+            Software Engineer | Fullstack development
           </p>
           <div className="flex justify-center space-x-4">
             <a href="https://github.com/NikithaSheerka" target="_blank" className="p-2 bg-gray-900 text-white rounded-full hover:bg-gray-700 transition-colors">
