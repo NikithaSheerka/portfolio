@@ -57,7 +57,7 @@ function App() {
           </div>
           <div className="prose prose-lg mx-auto text-justify">
             <p className="text-gray-600">
-              Hi there! I'm Sai Nikitha Sheerka, a passionate and results-driven Software Engineer specializing in full-stack development. With expertise in technologies like React, TypeScript, JavaScript, Go, Java, C#, and cloud platforms such as AWS and Azure, I thrive on building scalable and high-performance web and mobile applications. I hold a Master of Science in Business Analytics and Information Systems from the University of South Florida, where I honed my technical and analytical skills.
+              Hi there! I'm Sai Nikitha, a passionate and results-driven Software Engineer specializing in full-stack development. With expertise in technologies like React, TypeScript, JavaScript, Go, Java, C#, and cloud platforms such as AWS and Azure, I thrive on building scalable and high-performance web and mobile applications. I hold a Master of Science in Business Analytics and Information Systems from the University of South Florida, where I honed my technical and analytical skills.
             </p>
             <div className="h-12"></div>
 
@@ -194,7 +194,7 @@ function App() {
       </section>
 
       {/* Projects Section */}
-      <section className="py-20 bg-white" id="projects">
+      <section className="py-20 bg-red-600" id="projects">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center mb-12">
             <Briefcase size={32} className="text-indigo-600 mr-3" />
