@@ -5,6 +5,7 @@ import shopwell from "../assets/shopwell.png";
 import sudoko from "../assets/sudoko.png";
 import stackoverflow from "../assets/stackoverflow.png";
 import resume from "../assets/sai_nikitha_sheerka_se_r.pdf";
+import profilePic from "../assets/profile_pic.jpg";
 
 
 function App() {
@@ -20,8 +21,13 @@ function App() {
             className="w-full h-full object-cover"
           />
         </div>
-
+        
         <div className="relative z-10 max-w-5xl mx-auto text-center">
+        <div className="avatar  flex items-center justify-center">
+          <div className="w-[300px] h-[300px] rounded-full overflow-hidden">
+            <img src={profilePic} alt="User" className="w-full h-full object-cover" />
+          </div>
+        </div>
           <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-6">
             Hi, I'm <span className="text-indigo-600">Sai Nikitha Sheerka</span>
           </h1>
@@ -42,7 +48,7 @@ function App() {
               <Download size={24} />
             </a>
           </div>
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <div className="absolute bottom-8 left-[48%] transform -translate-x-1/2 animate-bounce">
             <ChevronDown size={32} className="text-gray-600" />
           </div>
         </div>
